@@ -1,0 +1,20 @@
+# Ignore everything:
+*
+
+# Except for the themes directories:
+
+!.gitignore
+!/wp-content/
+!/wp-content/themes/citizensadvice/
+!/wp-content/themes/citizensadvice/*
+!/wp-content/themes/citizensadvice/*/*
+!/wp-content/themes/citizensadvice/*/*/*
+!/wp-content/themes/citizensadvice/*/*/*/*
+!/wp-content/themes/citizensadvice/*/*/*/*/*
+
+!/wp-content/plugins/citizensadvice/
+!/wp-content/plugins/citizensadvice/*
+!/wp-content/plugins/citizensadvice/*/*
+!/wp-content/plugins/citizensadvice/*/*/*
+!/wp-content/plugins/citizensadvice/*/*/*/*
+!/wp-content/plugins/citizensadvice/*/*/*/*/*
