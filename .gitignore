@@ -5,16 +5,10 @@
 
 !.gitignore
 !/wp-content/
+!/wp-content/themes/
 !/wp-content/themes/citizensadvice/
 !/wp-content/themes/citizensadvice/*
 !/wp-content/themes/citizensadvice/*/*
 !/wp-content/themes/citizensadvice/*/*/*
 !/wp-content/themes/citizensadvice/*/*/*/*
 !/wp-content/themes/citizensadvice/*/*/*/*/*
-
-!/wp-content/plugins/citizensadvice/
-!/wp-content/plugins/citizensadvice/*
-!/wp-content/plugins/citizensadvice/*/*
-!/wp-content/plugins/citizensadvice/*/*/*
-!/wp-content/plugins/citizensadvice/*/*/*/*
-!/wp-content/plugins/citizensadvice/*/*/*/*/*

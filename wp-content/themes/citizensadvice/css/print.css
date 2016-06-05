@@ -1,0 +1,77 @@
+/* ######## Print Stylesheet ######## */
+
+* {background:transparent !important; color:black !important; text-shadow:none !important; filter:none !important; -ms-filter:none !important;} /* Black prints faster:h5bp.com/s */
+a, a:visited {text-decoration:underline;}
+/*a[href]:after {content:" (" attr(href) ")";}*/
+abbr[title]:after {content:" (" attr(title) ")";}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {content:"";}  /* Don't show links for images, or javascript/internal links */
+pre, blockquote {border:1px solid #999; page-break-inside:avoid;}
+thead {display:table-header-group;} /* h5bp.com/t */
+tr, img {page-break-inside:avoid;}
+img {max-width:100% !important;}
+@page {margin:0.5cm;}
+p, h2, h3 {orphans:3; widows:3;}
+h2, h3 {page-break-after:avoid;}
+li, dt, dd {margin-bottom: 10px;}
+small{font-size: 0.8em;}
+
+body{font-family:Calibri, Arial, Helvetica, sans-serif; font-size: 14px;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal; color:#000; margin:0; padding:10px 0; clear:both; font-weight: bold;}
+p{font-size: 1em;}
+
+h1 {font-size:1.8em}
+h2 {font-size:1.5em}
+h3 {font-size:1.3em}
+h4 {font-size:1em}
+h5 {font-size:0.5em}
+h5 {font-size:0.4em}
+
+a img{ border-style: none;}
+
+/*.a-external:after {content:" (" attr(href) ")";} --- Potentially include this if email addresses aren't classed as external links */
+
+.main-nav, 
+.skip-nav, 
+#epi-quickNavigator, 
+.extent-switcher,
+.main-nav,
+.main-header__links,
+.main-breadcrumb,
+.main-footer,
+.share-bar,
+.screenreader,
+.ref-heading__toggle,
+.main-content__sidebar
+{
+    display: none !important;
+}
+	
+.no-print{display: none!important;}
+.print-only{display: block!important;}
+
+.page-owner-container ul{list-style: none; padding-left: 0; margin-left: 0;}	
+.warningbox, .box{ padding: 10px;}
+	
+.box h2 a{text-decoration: none;}
+.box{margin-bottom: 10px; border-top: 0!important; height: auto!important; padding: 10px!important;}
+	
+table{text-align: left; border: 1px solid #000; border-collapse: collapse; width: 100%!important;}
+table ul, table ol{margin-left: 0;}
+th,td {padding: 4px; border: 1px solid #000; vertical-align: top;}
+th {border-bottom: 2px solid #333333;}
+	
+h1, h2, h3, h4, h5, h6, table, .box{page-break-after: avoid;}
+
+.page-image{margin: 20px 0;}
+.content-meta i{margin-right: 10px;}
+@page {size: auto; margin: 20mm 20mm 20mm 20mm;}
+
+.accordionContent{display:block!important;}
+.accordion h3 a{text-decoration: none; padding-top: 40px;}
+.calls-for-evidence-container {display:none!important;}
+.content-meta i, .page-owner-container i{display: none!important;}
+img[src="/Global/Migrated_Images/bmis/dl-icon.gif"]{display: none!important;}
+.articleContent a img, .articleContent a img + span{display:none!important;}
+.toc-legacy__num {
+    padding-left: 1em;
+}

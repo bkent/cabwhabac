@@ -1,0 +1,15 @@
+/*
+Theme Name: Citizens Advice, WordPress starter theme
+Theme URI: https://www.citizensadvice.org.uk
+Author: Peter Hunt
+Author URI: https://www.citizensadvice.org.uk
+Description: A starter WordPress theme created by Citizens Advice, for local Citizens Advice. This theme has a responsive layout, a custom home page template, custom menu and a custom 404 along with other minor branding throughout the login and admin pages.
+Version: 1.1
+License:
+License URI:
+Tags: responsive-layout, custom-homepage, two-columns, left-sidebar, custom-menu, custom-404
+Text Domain:
+*/
+
+@import url("css/main.min.css");
+@import url("css/wp-main.min.css");
