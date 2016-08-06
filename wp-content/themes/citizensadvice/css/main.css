@@ -8245,6 +8245,15 @@ li.ref-dialog__list-item--highlight {
 .home-page__box--member-campaigns > h2 {
   color: #fcceba;
 }
+.home-page__box--member-campaigns .button {
+    background-color: #fbc0ad;
+    color: black;
+    padding: 0.6em;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+}
 .home-page__box--member-supporters > h2 {
   color: #004b88;
 }

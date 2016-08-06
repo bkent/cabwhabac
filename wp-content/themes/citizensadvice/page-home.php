@@ -40,12 +40,12 @@ get_header(); ?>
 							<div class="home-page__box--member-search col-md-12 col-sm-6">
 								<h2>How can we help?</h2>
 								<div><p>Get advice online from Citizens Advice</p></div>
-								<form action="//www.citizensadvice.org.uk/resources-and-tools/navigation-tools/Search/" id="searchform" method="get">
+								<form action="http://citizensadvice.org.uk/resources-and-tools/navigation-tools/Search/" id="searchform" method="get">
 									<label for="q" class="screenreader">
 										Search Citizens Advice
 									</label>
 									<div class="search-inline__field">
-										<input type="search" name="q" id="q" placeholder="Search Citizens Advice">
+										<input type="text" name="q" id="q" placeholder="Search Citizens Advice">
 									</div>
 									<div class="search-inline__button">
 										<input type="submit" id="searchsubmit" value="Search"> 
@@ -69,7 +69,7 @@ get_header(); ?>
 				
 				
 				<?php if ( is_active_sidebar( 'widget-home-4' ) ) : ?>
-					<div class="home-page__box--member-more col-md-4 col-sm-6">
+					<div class="home-page__box--member-campaigns col-md-4 col-sm-6">
 						<?php dynamic_sidebar( 'widget-home-4' );?>
 					</div>
 				<?php elseif ( current_user_can( 'manage_options' ) ) : ?>
@@ -95,7 +95,7 @@ get_header(); ?>
 				
 				
 				<?php if ( is_active_sidebar( 'widget-home-6' ) ) : ?>
-					<div class="home-page__box--member-campaigns col-md-4 col-sm-6">
+					<div class="home-page__box--member-more col-md-4 col-sm-6">
 						<?php dynamic_sidebar( 'widget-home-6' );?>
 					</div>
 				<?php elseif ( current_user_can( 'manage_options' ) ) : ?>
