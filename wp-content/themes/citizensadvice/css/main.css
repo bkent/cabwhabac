@@ -8226,10 +8226,19 @@ li.ref-dialog__list-item--highlight {
 .home-page__box--member-volunteer a,
 .home-page__box--member-volunteer a:hover,
 .home-page__box--member-volunteer a:focus {
-  color: #3e334d;
+  color: #000000;
 }
 .home-page__box--member-volunteer > h2 {
   color: #57486b;
+}
+.home-page__box--member-volunteer .button {
+    background-color: #57486b;
+    color: #ffffff;
+    padding: 0.6em;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
 }
 .home-page__box--member-campaigns {
   background: #006278 url("../img/policy-foot.png") no-repeat center bottom;
@@ -8240,7 +8249,7 @@ li.ref-dialog__list-item--highlight {
 .home-page__box--member-campaigns a,
 .home-page__box--member-campaigns a:hover,
 .home-page__box--member-campaigns a:focus {
-  color: #fcceba;
+  color: #ffffff;
 }
 .home-page__box--member-campaigns > h2 {
   color: #fcceba;
