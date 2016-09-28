@@ -8218,6 +8218,17 @@ li.ref-dialog__list-item--highlight {
 .home-page__box--member-more > h2 {
   color: #004b88;
 }
+
+.home-page__box--member-more .button {
+    background-color: #004b88;
+    color: white;
+    padding: 0.6em;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .home-page__box--member-volunteer {
   background: #a6d6ae url("../img/responsiblepurple-volunteer-man-200x200px.png") no-repeat center bottom;
   border-top: none;
