@@ -80,20 +80,6 @@ get_header(); ?>
 					</div>
 				<?php endif; ?>
 				
-				
-				<?php if ( is_active_sidebar( 'widget-home-5' ) ) : ?>
-					<div class="home-page__box--member-volunteer col-md-4 col-sm-6">
-						<?php dynamic_sidebar( 'widget-home-5' );?>
-					</div>
-				<?php elseif ( current_user_can( 'manage_options' ) ) : ?>
-					<div class="home-page__box--member-volunteer col-md-4 col-sm-6">
-						<h2>Home #5</h2>
-						<p>This block is visible for admin users only.</p>
-						<p>No widget has been applied to widget area <strong>Home #5</strong></p>
-					</div>
-				<?php endif; ?>
-				
-				
 				<?php if ( is_active_sidebar( 'widget-home-6' ) ) : ?>
 					<div class="home-page__box--member-more col-md-4 col-sm-6">
 						<?php dynamic_sidebar( 'widget-home-6' );?>
@@ -106,6 +92,17 @@ get_header(); ?>
 					</div>
 				<?php endif; ?>
 				
+				<?php if ( is_active_sidebar( 'widget-home-5' ) ) : ?>
+					<div class="home-page__box--member-volunteer col-md-4 col-sm-6">
+						<?php dynamic_sidebar( 'widget-home-5' );?>
+					</div>
+				<?php elseif ( current_user_can( 'manage_options' ) ) : ?>
+					<div class="home-page__box--member-volunteer col-md-4 col-sm-6">
+						<h2>Home #5</h2>
+						<p>This block is visible for admin users only.</p>
+						<p>No widget has been applied to widget area <strong>Home #5</strong></p>
+					</div>
+				<?php endif; ?>		
 				
 				<?php if ( is_active_sidebar( 'widget-home-7' ) ) : ?>
 					<div class="home-page__box col-md-4 col-sm-6">
