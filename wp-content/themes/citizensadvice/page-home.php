@@ -40,7 +40,7 @@ get_header(); ?>
 							<div class="home-page__box--member-search col-md-12 col-sm-6">
 								<h2>How can we help?</h2>
 								<div><p>Get advice online from Citizens Advice</p></div>
-								<form action="http://citizensadvice.org.uk/resources-and-tools/navigation-tools/Search/" id="searchform" method="get">
+								<form action="https://www.citizensadvice.org.uk/resources-and-tools/navigation-tools/Search//" id="searchform" method="get">
 									<label for="q" class="screenreader">
 										Search Citizens Advice
 									</label>
